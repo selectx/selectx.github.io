@@ -1,1 +1,160 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="/1.0.0/selectx.css">
+    <title>SelectX</title>
+</head>
+<body>
+
+<style>
+
+    * {margin:0;padding:0;vertical-align:top;box-sizing:border-box;}
+
+    body, input {font-family:Arial, sans-serif;font-size:14px;}
+    label {margin:15px 0;display:block;}
+    .label {font-size:11px;text-transform:uppercase;line-height:20px;font-weight:bold;}
+
+    button {color:#fff;font-weight:bold;text-transform:uppercase;font-size:12px;background:rgb(102, 170, 238);border:0;line-height:40px;border-radius:2px;padding:0 20px;outline:none;cursor:pointer;margin:10px 0 10px;}
+
+    h1, h2, h3, h4, h5, h6 {font-weight:normal;}
+
+</style>
+
+<form style="max-width:500px;padding:20px;margin:0 auto;" method="GET" action=".">
+
+<h1>SelectX</h1>
+<p>Replacement for native html select boxes</p>
+
+<label>
+    <div class="label">Cars</div>
+    <select class="selectx" name="cars" required>
+        <option value="">Choose</option>
+        <optgroup label="Germany">
+            <option value="1">BMW</option>
+            <option value="2">Audi</option>
+        </optgroup>
+        <optgroup label="Russia">
+            <option value="3">ВАЗ</option>
+        </optgroup>
+    </select>
+</label>
+
+<label>
+    <div class="label">Cars</div>
+    <select class="selectx" name="big_cats" multiple>
+        <option value="">Tigers</option>
+        <option value="2">Lions</option>
+        <option value="3">Leopards1</option>
+        <option value="4">Leopards2</option>
+        <option value="5">Leopards3</option>
+        <option value="6">Leopards4</option>
+        <option value="7">Leopards5</option>
+        <option value="8">Leopards6</option>
+        <option value="9">Leopards7</option>
+    </select>
+</label>
+
+<label>
+    <div class="label">Cars</div>
+    <select class="selectx" name="big_cats2">
+        <option value="">Tigers</option>
+        <option value="2">Lions</option>
+        <option value="3">Leopards1</option>
+        <option value="4">Leopards2</option>
+        <option value="5">Leopards3</option>
+        <option value="6">Leopards4</option>
+        <option value="7">Leopards5</option>
+        <option value="8">Leopards6</option>
+        <option value="9">Leopards7</option>
+    </select>
+</label>
+<label>
+    <div class="label">Cars</div>
+    <select class="selectx" name="big_cats3">
+        <option value="">Tigers</option>
+        <option value="2">Lions</option>
+        <option value="3">Leopards1</option>
+        <option value="4">Leopards2</option>
+        <option value="5">Leopards3</option>
+        <option value="6">Leopards4</option>
+        <option value="7">Leopards5</option>
+        <option value="8">Leopards6</option>
+        <option value="9">Leopards7</option>
+    </select>
+</label>
+
+<label>
+    <div class="label">Cars</div>
+    <select class="selectx" name="animals" multiple>
+        <option value="1" selected>Bears</option>
+        <option value="2" selected>Wolves</option>
+    </select>
+</label>
+
+<label>
+    <div class="label">Cars</div>
+    <select class="selectx" name="trees" multiple>
+        <option value="1">LOL</option>
+        <option value="2">BIG LOL</option>
+    </select>
+</label>
+
+<label>
+    <div class="label">Cars</div>
+    <select class="selectx" name="trees2">
+        <option value="1">LOL</option>
+        <option value="2">BIG LOL</option>
+    </select>
+</label>
+
+<button type="submit">Submit</button>
+
+<h2>To do</h2>
+<ul>
+    <li>Documentation</li>
+    <li>Github</li>
+    <li>CDN</li>
+</ul>
+<h2>Features coming</h2>
+<ul>
+    <li>Mobile view</li>
+    <li>One line checkboxes by width condition</li>
+    <li>All html tags support</li>
+    <li>Custom validation attribute + focus on invlid</li>
+    <li>Combobox</li>
+    <li>Templating</li>
+    <li>Disable select + choice</li>
+    <li>Tagging support</li>
+</ul>
+
+<h2>Knowing bugs that will not be ever fixed</h2>
+
+<ul>
+    <li>Backslashes in search "\" are ignored</li>
+    <li>If mouse over results list, arrow navigation may jump a little</li>
+</ul>
+
+<h2>How to</h2>
+
+<ul>
+    <li>If dom mutation events doe not work, use <b>$('#my-select').data('selectx').init()</b> - to update</li>
+</ul>
+
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="/1.0.0/selectx.js"></script>
+
+<script>
+
+    $('[name="cars"]').selectx({placeholder: 'carrrs'});
+    $('[name="big_cats"]').selectx({placeholder: 'cattts'});
+    $('[name="big_cats2"]').selectx();
+    $('select').not('.lol').selectx({search: false});
+
+</script>
+
+</body>
+</html>

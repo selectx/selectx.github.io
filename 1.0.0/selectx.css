@@ -1,0 +1,23 @@
+.selectx {position:absolute;opacity:0;height:35px;width:1px;border:0;}
+.selectx-select {position:relative;height:35px;}
+.selectx-select.selectx-opened,
+.selectx-select.selectx-focused {z-index:2;}
+    .selectx-select * {box-sizing:border-box;margin:0;padding:0;border:0;outline:0;}
+    .selectx-wrapper {position:absolute;top:0;left:0;right:0;background:#f1f1f6;}
+    .selectx-focused .selectx-wrapper {box-shadow:0 0 3px #369;}
+        .selectx-value {min-height:35px;position:relative;padding-left:5px;}
+        .selectx-value:focus {border-color:#f00;}
+        .selectx-search {line-height:35px;min-width:100%;display:inline-block;}
+            .selectx-value .selectx-search {min-width:1px;border:0;}
+            .selectx-placeholder {position:absolute;color:#999;line-height:35px;}
+
+            .selectx-tag {display:inline-block;}
+        .selectx-dropdown {display:none;position:relative;min-height:35px;max-height:210px;overflow-y:scroll;}
+       .selectx-opened .selectx-dropdown {display:block;}
+            .selectx-dropdown .selectx-search {line-height:33px;width:100%;display:inline-block;}
+
+            .selectx-optgroup-label {line-height:35px;display:block;background:#fff;position:relative;z-index:1;}
+            .selectx-option {line-height:35px;padding:0 5px;background:#fff;position:relative;z-index:1;}
+            .selectx-option.selected {background:#e1e1e6;}
+            .selectx-option.hovered {background:#369;color:#fff;}
+            .selectx-no-results {padding:0 5px;line-height:35px;position:absolute;left:0;bottom:0;width:100%;color:#999;}
