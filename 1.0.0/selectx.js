@@ -242,9 +242,9 @@
                 } else {
                     self.placeholder.show();
                 }
+                self.setSearchWidth();
+                self.setShadowHeight();
             }
-            self.setSearchWidth();
-            self.setShadowHeight();
         }).on('keydown', function(e) {
             if (e.keyCode == 13) { // Enter
                 e.preventDefault();
