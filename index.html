@@ -16,7 +16,7 @@
     label {margin:15px 0;display:block;}
     .label {font-size:11px;text-transform:uppercase;line-height:20px;font-weight:bold;}
 
-    button {color:#fff;font-weight:bold;text-transform:uppercase;font-size:12px;background:rgb(102, 170, 238);border:0;line-height:40px;border-radius:2px;padding:0 20px;outline:none;cursor:pointer;margin:10px 0 10px;}
+    button {color:#fff;font-weight:bold;text-transform:uppercase;font-size:12px;background:rgb(102, 170, 238);border:0;line-height:40px;border-radius:2px;padding:0 20px;outline:none;cursor:pointer;margin:10px 0 20px;}
 
     h1, h2, h3, h4, h5, h6 {font-weight:normal;}
 
@@ -116,6 +116,19 @@
 
 <button type="submit">Submit</button>
 
+<h2>Knowing bugs that will not be ever fixed</h2>
+
+<ul>
+    <li>Backslashes in search "\" are ignored</li>
+    <li>If mouse over results list, arrow navigation may jump a little</li>
+</ul>
+
+<h2>How to</h2>
+
+<ul>
+    <li>If deprecated DOM mutation events does not work, to update SelectX after native select changes, use <br>$('#my-select').data('selectx').init()</b></li>
+</ul>
+
 <h2>Features coming</h2>
 
 <ul>
@@ -129,19 +142,6 @@
     <li>Templating</li>
     <li>Disable select + choice</li>
     <li>Tagging support</li>
-</ul>
-
-<h2>Knowing bugs that will not be ever fixed</h2>
-
-<ul>
-    <li>Backslashes in search "\" are ignored</li>
-    <li>If mouse over results list, arrow navigation may jump a little</li>
-</ul>
-
-<h2>How to</h2>
-
-<ul>
-    <li>If deprecated DOM mutation events does not work, to update SelectX after native select changes, use <br>$('#my-select').data('selectx').init()</b></li>
 </ul>
 
 </form>
