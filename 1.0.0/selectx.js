@@ -127,7 +127,7 @@
         });
 
         self.select.after(self.selectX);
-        self.select.css('width', self.selectX.width())
+        self.select.css('width', self.selectX.width());
 
         self.renderSelection();
         self.setEvents();
