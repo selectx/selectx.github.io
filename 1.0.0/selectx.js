@@ -347,7 +347,7 @@
 
         self.clearMatch();
 
-        self.options.filter(':selectXsearch(' + q + ')').show().closest(self.optgroups).show();
+        self.options.filter(':selectXsearch(' + q + ')').filter(function() {return this.value; }).show().closest(self.optgroups).show();
 
         self.options.each(function() {
             var option = $(this);
