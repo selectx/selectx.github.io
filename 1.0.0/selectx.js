@@ -270,7 +270,7 @@
                                 self.results.scrollTop(self.hovered.offset().top - offset - resultsHeight + elementHeight + self.results.scrollTop());
                             }
                         } else {
-                            self.results.scrollTop(resultsHeight);
+                            self.results.scrollTop(resultsHeight + self.results.scrollTop());
                         }
                     } else if (e.keyCode == 38) { // Up
                         if (index > 0) {
