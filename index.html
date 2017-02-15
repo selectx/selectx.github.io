@@ -30,92 +30,130 @@
 <form style="max-width:500px;padding:20px;margin:0 auto;" method="GET" action=".">
 
 <h1>SelectX</h1>
-<p>Replacement for native html select boxes, epta.</p>
+<p>Replacement for native html select boxes, epta</p>
 <p>Sponsored by <a href="http://repetit.ru" target="_blank">repetit.ru</a></p>
 
 <label>
-    <div class="label">Cars</div>
-    <select class="selectx" name="cars" required>
-        <option value="">Choose</option>
-        <optgroup label="Germany">
-            <option value="1">BMW</option>
-            <option value="2">Audi</option>
-        </optgroup>
-        <optgroup label="Russia">
-            <option value="3">ВАЗ</option>
-        </optgroup>
-    </select>
+<div class="label">Select box with search</div>
+<select name="a" class="selectx" required>
+	<option value="">Choose country</option>
+	<optgroup label="First ten">
+		<option value="1">United States</option>
+		<option value="2">China</option>
+		<option value="3">Japan</option>
+		<option value="4">Germany</option>
+		<option value="5">United Kingdom</option>
+		<option value="6">France</option>
+		<option value="7">Italy</option>
+		<option value="8">Canada</option>
+		<option value="9">Russia</option>
+		<option value="10">Spain</option>
+	</optgroup>
+	<optgroup label="First twenty">
+		<option value="1">Indonesia</option>
+		<option value="2">Turkey</option>
+		<option value="3">Switzerland</option>
+		<option value="4">Saudi Arabia</option>
+		<option value="5">Argentina</option>
+		<option value="6">Taiwan Province of China</option>
+		<option value="7">Sweden</option>
+		<option value="8">Belgium</option>
+		<option value="9">Poland</option>
+		<option value="10">Nigeria</option>
+	</optgroup>
+</select>
 </label>
 
 <label>
-    <div class="label">Cars</div>
-    <select class="selectx" name="big_cats" multiple>
-        <option value="">Tigers</option>
-        <option value="2">Lions</option>
-        <option value="3">Leopards1</option>
-        <option value="4">Leopards2</option>
-        <option value="5">Leopards3</option>
-        <option value="6">Leopards4</option>
-        <option value="7">Leopards5</option>
-        <option value="8">Leopards6</option>
-        <option value="9">Leopards7</option>
-    </select>
+<div class="label">Select box without search</div>
+<select name="b" class="selectx">
+	<option value="">Choose country</option>
+	<optgroup label="First ten">
+		<option value="1">United States</option>
+		<option value="2">China</option>
+		<option value="3">Japan</option>
+		<option value="4">Germany</option>
+		<option value="5">United Kingdom</option>
+		<option value="6">France</option>
+		<option value="7">Italy</option>
+		<option value="8">Canada</option>
+		<option value="9">Russia</option>
+		<option value="10">Spain</option>
+	</optgroup>
+	<optgroup label="First twenty">
+		<option value="1">Indonesia</option>
+		<option value="2">Turkey</option>
+		<option value="3">Switzerland</option>
+		<option value="4">Saudi Arabia</option>
+		<option value="5">Argentina</option>
+		<option value="6">Taiwan Province of China</option>
+		<option value="7">Sweden</option>
+		<option value="8">Belgium</option>
+		<option value="9">Poland</option>
+		<option value="10">Nigeria</option>
+	</optgroup>
+</select>
 </label>
 
 <label>
-    <div class="label">Cars</div>
-    <select class="selectx" name="big_cats2">
-        <option value="">Tigers</option>
-        <option value="2">Lions</option>
-        <option value="3">Leopards1</option>
-        <option value="4">Leopards2</option>
-        <option value="5">Leopards3</option>
-        <option value="6">Leopards4</option>
-        <option value="7">Leopards5</option>
-        <option value="8">Leopards6</option>
-        <option value="9">Leopards7</option>
-    </select>
-</label>
-<label>
-    <div class="label">Cars</div>
-    <select class="selectx" name="big_cats3">
-        <option value="">Tigers</option>
-        <option value="2">Lions</option>
-        <option value="3">Leopards1</option>
-        <option value="4">Leopards2</option>
-        <option value="5">Leopards3</option>
-        <option value="6">Leopards4</option>
-        <option value="7">Leopards5</option>
-        <option value="8">Leopards6</option>
-        <option value="9">Leopards7</option>
-    </select>
-</label>
-
-<label>
-    <div class="label">Cars</div>
-    <select class="selectx" name="animals" multiple>
-        <option value="1" selected>Bears</option>
-        <option value="2" selected>Wolves</option>
-    </select>
+<div class="label">Multiple select box</div>
+<select name="c" multiple class="selectx">
+	<optgroup label="First ten">
+		<option value="1">United States</option>
+		<option value="2">China</option>
+		<option value="3">Japan</option>
+		<option value="4">Germany</option>
+		<option value="5">United Kingdom</option>
+		<option value="6">France</option>
+		<option value="7">Italy</option>
+		<option value="8">Canada</option>
+		<option value="9">Russia</option>
+		<option value="10">Spain</option>
+	</optgroup>
+	<optgroup label="First twenty">
+		<option value="1">Indonesia</option>
+		<option value="2">Turkey</option>
+		<option value="3">Switzerland</option>
+		<option value="4">Saudi Arabia</option>
+		<option value="5">Argentina</option>
+		<option value="6">Taiwan Province of China</option>
+		<option value="7">Sweden</option>
+		<option value="8">Belgium</option>
+		<option value="9">Poland</option>
+		<option value="10">Nigeria</option>
+	</optgroup>
+</select>
 </label>
 
-<label>
-    <div class="label">Cars</div>
-    <select class="selectx" name="trees" multiple>
-        <option value="1">LOL</option>
-        <option value="2">BIG LOL</option>
-    </select>
-</label>
+<button style="margin-bottom:20px;" type="submit">Submit</button>
 
-<label>
-    <div class="label">Cars</div>
-    <select class="selectx" name="trees2">
-        <option value="1">LOL</option>
-        <option value="2">BIG LOL</option>
-    </select>
-</label>
+<p>Tested in all major browsers (IE9+)</p>
 
-<button type="submit">Submit</button>
+<h2>Quick start</h2>
+
+<p><i>https://selectx.github.io/1.0.0/selectx.css</i></p>
+<p><i>https://selectx.github.io/1.0.0/selectx.js</i></p>
+
+<pre>
+    $('.selectx').selectx();
+</pre>
+
+<h2>Settings</h2>
+
+<pre>
+    {
+        placeholder: 'Choose value',
+        noResults: 'Not found',
+        cssClass: 'selectx-default',
+        search: true
+    }
+</pre>
+
+<h2>TODO</h2>
+
+<ul>
+    <li>Describe, why this gangsta shit is so awesome, that you should forget about select2</li>
+</ul>
 
 <h2>Knowing bugs that will not be ever fixed</h2>
 
@@ -130,10 +168,9 @@
     <li>If deprecated DOM mutation events does not work, to update SelectX after native select changes, use <br><b>$('#my-select').data('selectx').init()</b></li>
 </ul>
 
-<h2>TODO</h2>
+<h2>Coming features</h2>
 
 <ul>
-    <li>Features</li>
     <li>CDN</li>
     <li>Documentation</li>
     <li>Mobile view</li>
