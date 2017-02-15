@@ -228,6 +228,12 @@
             self.setSelection($(this));
         });
 
+        self.select.on('focus', function() {
+            self.selectX.addClass('selectx-focused');
+        }).on('focusout', function() {
+            self.blur();
+        });
+
         self.search.on('focus', function() {
             self.selectX.addClass('selectx-focused');
         }).on('focusout', function() {
