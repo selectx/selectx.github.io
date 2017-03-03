@@ -18,8 +18,9 @@
 
     .selectx-select * {box-sizing:border-box;outline:none;}
 
-        .selectx-selection {cursor:default;position:relative;border:1px solid transparent;line-height:23px;min-height:35px;padding:5px 5px 0 5px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
-        .selectx-single .selectx-selection {padding-left:10px;}
+        .selectx-selection {position:relative;border:1px solid transparent;line-height:23px;min-height:35px;padding:5px 5px 0 5px;-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+        .selectx-single .selectx-selection {padding-left:10px;cursor:default;}
+        .selectx-multiple .selectx-selection {cursor:text;}
         .selectx-opened .selectx-selection {}
             .selectx-placeholder {}
             .selectx-multiple .selectx-placeholder {position:absolute;}
