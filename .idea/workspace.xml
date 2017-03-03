@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fe1a3f6-bc37-4a6c-913b-26e78b608f30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0.0/selectx.js" afterPath="$PROJECT_DIR$/1.0.0/selectx.js" />
-    </list>
+    <list default="true" id="3fe1a3f6-bc37-4a6c-913b-26e78b608f30" name="Default" comment="" />
     <ignored path="selectx.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -47,8 +45,8 @@
       <file leaf-file-name="selectx.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.0.0/selectx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64697194">
-              <caret line="325" column="66" selection-start-line="325" selection-start-column="66" selection-end-line="325" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.15509601">
+              <caret line="7" column="57" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -459,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.0.0/selectx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64697194">
-          <caret line="325" column="66" selection-start-line="325" selection-start-column="66" selection-end-line="325" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.15509601">
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="57" />
           <folding />
         </state>
       </provider>
