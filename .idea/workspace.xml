@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fe1a3f6-bc37-4a6c-913b-26e78b608f30" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0.0/selectx.css" afterPath="$PROJECT_DIR$/1.0.0/selectx.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1.0.0/selectx.js" afterPath="$PROJECT_DIR$/1.0.0/selectx.js" />
     </list>
     <ignored path="selectx.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selectx.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="selectx.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.0.0/selectx.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29098967">
+            <state vertical-scroll-proportion="0.0">
               <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selectx.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="selectx.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.0.0/selectx.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.64697194">
+              <caret line="325" column="66" selection-start-line="325" selection-start-column="66" selection-end-line="325" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -72,8 +72,8 @@
       <list>
         <option value="$PROJECT_DIR$/selectx.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/1.0.0/selectx.js" />
         <option value="$PROJECT_DIR$/1.0.0/selectx.css" />
+        <option value="$PROJECT_DIR$/1.0.0/selectx.js" />
       </list>
     </option>
   </component>
@@ -449,18 +449,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.0.0/selectx.js">
+    <entry file="file://$PROJECT_DIR$/1.0.0/selectx.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.0.0/selectx.css">
+    <entry file="file://$PROJECT_DIR$/1.0.0/selectx.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29098967">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.64697194">
+          <caret line="325" column="66" selection-start-line="325" selection-start-column="66" selection-end-line="325" selection-end-column="66" />
           <folding />
         </state>
       </provider>

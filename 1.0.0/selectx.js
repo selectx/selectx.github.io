@@ -323,7 +323,7 @@
     };
 
     SelectX.prototype.clearShadowHeight = function() { var self = this;
-        self.shadow.css('min-height', '35px');
+        self.shadow.css('min-height', self.selection.outerHeight());
     };
 
     SelectX.prototype.blur = function() { var self = this;
